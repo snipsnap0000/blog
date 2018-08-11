@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.middle {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
